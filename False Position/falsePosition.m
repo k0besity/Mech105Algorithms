@@ -1,6 +1,8 @@
 function [root, fx, ea, iter] = falsePosition(func, xl, xu, es, maxit, varargin)
-%falsePosition finds the root of a function using false position method
-
+% falsePosition finds the root of a function using false position method
+% func, xl, and xu are required. The other inputs are optional.
+% es is the stopping criterion.
+% maxit is the maximum number of iterations. maxit = 200 by default.
 if nargin < 3
     error('not enough inputs');
 end
