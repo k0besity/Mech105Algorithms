@@ -6,7 +6,7 @@ A collection of the algorithms I wrote in Mech105: Numerical Methods (Spring 202
 *This algorithm takes in a base 10 number and converts it to binary.*
 
 ## False Position
-*This algorithm uses the root finding technique of false position. A function, lower estimate and upper estimate are required.*
+*This algorithm uses the root finding technique of false position. The false position formula makes a straight line between the lower and upper estimates, and then estimates the real root as the root of that straight line. A function, lower estimate (must be negative) and upper estimate (must be positive) are required.*
 
 ## LU Factorization (with partial pivoting)
 *This algorithm takes in a coefficient matrix and then uses LU Factorization with partial pivoting to output the lower (L), upper (U), and pivot (P) matrices.* 
