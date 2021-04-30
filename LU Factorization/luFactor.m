@@ -1,12 +1,12 @@
 function [L, U, P] = luFactor(A)
 % luFactor(A)
-%	LU decomposition with pivotiing
+%	LU decomposition with pivoting
 % inputs:
 %	A = coefficient matrix
 % outputs:
 %	L = lower triangular matrix
 %	U = upper triangular matrix
-%       P = the permutation matrix
+%   P = the permutation matrix
 
 if nargin ~= 1, error('one input required. No more, no less'), end
 [n,m] = size(A);
